@@ -9,8 +9,6 @@ def lambda_handler(event, context):
     ELEMENTARY_MENU_ID = "31373"
     MIDDLE_MENU_ID = "31376"
 
-    print(event)
-
     menu_id = ELEMENTARY_MENU_ID
 
     try:
